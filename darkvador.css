@@ -1,0 +1,154 @@
+git body{
+ 
+    background-image: url(assetsdarkvador/fond\ de\ page.jpg);
+    background-size: cover;
+    background-attachment:fixed;
+}
+
+
+.image{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10%;
+
+}
+.texte{
+    text-align: center;
+    font-size: 1em;
+    color: darkgoldenrod;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 20%;
+    margin-right: 20%;
+    
+}
+.title{
+
+    text-align: center;
+    font-size: 6em;
+    color: darkgoldenrod;
+}
+
+
+.bob-anderson{
+    width: 50%;
+    display: flex;
+    color: darkgoldenrod;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1em;
+    text-align: center;
+    direction: rtl;
+    margin-top: 20%;
+    margin-left: 42%;
+    align-items: center;
+}
+.spencer-wilding{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    color: darkgoldenrod;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1em;
+    text-align: center;
+    margin-top: 20%;
+    margin-left:2%;
+    align-items: center;
+
+}
+.hayden{
+    width: 60%;
+    display: flex;
+    color: darkgoldenrod;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1em;
+    text-align: center;
+    direction: rtl;
+    margin-left: 33%;
+    margin-top: 20%;
+    align-items: center;
+}
+.prowse{
+    width: 60%;
+    display: flex;
+    direction:ltr;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1em;
+    text-align: center;
+    align-items: center;
+    margin-top:  -85%;
+    margin-Left: 3%;
+
+}
+.jones{
+    width: 60%;
+    display: flex;
+    direction:rtl;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1em;
+    text-align: center;
+    margin-left: 33%;
+    margin-top:20%;
+    align-items: center;
+
+}
+.seb-shaw{
+    width: 60%;
+    display: flex; 
+    direction:ltr;
+    color: darkgoldenrod;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1em;
+    text-align: center;
+    margin-top: 15%;
+    margin-left: 2%;
+    align-items: center;
+    
+}
+
+
+h4{
+    vertical-align:top;
+    text-align: center;
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+    font-size: 1em;
+    margin-top: 30%;
+    
+}
+.commentaires{
+    margin-top: 25%;
+    border-collapse: collapse;
+    border: 2px solid#151515;
+    padding: -20%;
+    background-color:darkred;
+    color:black;
+    font-size: 2EM;
+}
+.submit-button:hover {
+    background-color: white;
+    color:  #151515;
+    cursor: pointer;
+    height: 40%;
+}
+ /* Set the background color of body to tan */
+ body {
+    background-color: tan;
+  }
+    /* On screens that are 992px or less, set the background color to blue */
+    @media screen and (max-width: 992px) {
+        body {
+          background-color: blue;
+        }
+    }
+
+ /* On screens that are 600px or less, set the background color to olive */
+ @media screen and (max-width: 600px) {
+    body {
+      background-color: olive;
+    }
+  }
+  

@@ -1,0 +1,99 @@
+
+body{
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    height: auto;
+    /* Set the background color of body to tan */
+
+    background-color: tan;}
+
+.center{
+    display: flex;
+    Flex-direction: column;
+    max-width: 100%;
+    height: auto;
+    
+}
+.texte
+{
+    text-align:justify;
+   padding: 5em;
+   font-size: 4em;
+   font-style: normal;
+   font-family: Arial, Helvetica, sans-serif;
+    color: darkgoldenrod;
+    background-color: black;
+    max-width: 100%;
+    height: auto;
+
+}
+
+.head {
+    display: flex;
+    text-align: center;
+    Flex-direction: column;
+    color: darkgoldenrod;
+    background-color:black;
+    font-size: 2em;
+    max-width: 100%;
+    height: auto;
+
+
+    
+    
+}
+
+
+.dark{
+    display:flex;
+    flex-direction: column;
+    background-color: crimson;
+    width: 19%;
+    padding: 5em;
+    font-size: 5em;
+    margin-inline-start:-100px ;
+    margin-inline-end: -1px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 2em;
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+.light{
+    display:flex;
+    flex-direction: column;
+    background-color: darkturquoise;
+    width: 19%;
+    padding: 5em;
+    margin-inline-start: -20px;
+    margin-inline-end:  -50px;
+    font-weight:bold;
+    text-align: center;
+    font-size: 3em;
+    max-width: 100%;
+    height: auto;
+}
+
+a{
+    color: black;
+}
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+    body {
+      background-color: blue;
+    }
+  }
+  /* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+    body {
+      background-color: olive;
+    }
+  }
+  
+
+
+
